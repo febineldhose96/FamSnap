@@ -42,3 +42,9 @@ content.
 Voice recognition: Using voice recognition technology, users would be able to search for and access
 their photographs using voice commands, making the app more user-friendly and accessible to those
 with impairments.
+
+Deployment link= https://64549bfc81a49f600638640b--papaya-empanada-245cf9.netlify.app/
+
+Refernces used for the project
+
+1.https://github.com/ 2.https://app.netlify.com/ 3.https://stackoverflow.com/questions/71675318/how-to-reset-state-when-route-changes 4.https://redux-toolkit.js.org/ 5.https://www.npmjs.com/package/react-dom 6.https://react.dev/ 7.https://www.w3schools.com/ 8.https://dummyjson.com/docs/users
