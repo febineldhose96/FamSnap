@@ -13,7 +13,11 @@ function GridList({ list = [], onItemClick = () => {}, groupName = "" }) {
         {list.map((item, i) => {
           return (
             <li key={i} className={styles.list_item} onClick={onItemClick}>
-              <img src={item.imgUrl} className={styles.list_img} />
+              <img
+                src={item.imgUrl}
+                className={styles.list_img}
+                alt="groupimg"
+              />
             </li>
           );
         })}

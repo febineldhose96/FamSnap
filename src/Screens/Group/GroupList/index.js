@@ -15,7 +15,7 @@ export default function GroupList({ list = [], extralist = [] }) {
                 />
                 <p className={styles.profile_name}>{item.name}</p>
               </div>
-              <img src={item.imgUrl} className={styles.image_} />
+              <img src={item.imgUrl} className={styles.image_} alt="sample" />
             </li>
           );
         })}

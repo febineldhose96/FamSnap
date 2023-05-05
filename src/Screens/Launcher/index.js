@@ -45,6 +45,7 @@ export default function Launcher(props) {
             src={
               "https://edge.fscdn.org/assets/static/media/topic.230f98046e6280771332.png"
             }
+            alt="launcher"
             className={styles.img3}
           />
           <h2>Organize Your Memories</h2>
@@ -56,7 +57,10 @@ export default function Launcher(props) {
           <a className={styles.learnmoretxt}>Learn more</a>
         </div>
         <div className={styles.wrapper3}>
-          <img src="https://www.nni.com.sg/sites/shcommonassets/Assets/Events/NCCS/Public%20Events/psp%20event.jpg" />
+          <img
+            src="https://www.nni.com.sg/sites/shcommonassets/Assets/Events/NCCS/Public%20Events/psp%20event.jpg"
+            alt="img1"
+          />
           <h2>Create Your own groups and share your memories</h2>
           <p className={styles.text3}>
             Create a Group. Add members to groups and share family snap photos.
@@ -65,7 +69,10 @@ export default function Launcher(props) {
           </p>
         </div>
         <div className={styles.wrapper2}>
-          <img src="https://edge.fscdn.org/assets/static/media/gallery.9e7aab618de1529bcbfa.avif" />
+          <img
+            src="https://edge.fscdn.org/assets/static/media/gallery.9e7aab618de1529bcbfa.avif"
+            alt="img2"
+          />
           <h2>Enjoy your family memories in one place.</h2>
           <p className={styles.text3}>
             The Memories Gallery is where all your important family photos,

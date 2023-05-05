@@ -38,11 +38,6 @@ export default function GroupInfo({
           </button>
         </div>
       </div>
-      {/* <img
-        src={groupBackgrndImgUrl}
-        alt="grpimg"
-        className={styles.bkgrndImg}
-      /> */}
     </div>
   );
 }

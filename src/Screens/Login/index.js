@@ -21,11 +21,13 @@ export default function Login(props) {
         src={
           "https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=650%2Cq=70%2Csharpen=1%2Cwidth=956/wp-content/uploads/family-day1.jpg"
         }
+        alt="img1"
       />
       <div className={styles.innerMain}>
         <img
           src={require("../../Components/Assets/Images/launcherImg.png")}
           className={styles.logo_img}
+          alt="launcher1"
         />
         <form action="">
           <div className={styles.inputwrapper}>
