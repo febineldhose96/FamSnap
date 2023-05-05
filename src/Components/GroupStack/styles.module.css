@@ -1,0 +1,60 @@
+@import url("../../Config/fonts.css");
+.group_main {
+  background: white;
+  flex-direction: column;
+  width: 20%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scroll-behavior: smooth;
+  overflow: scroll;
+  height: 90vh;
+}
+.profile_img_wrapper {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile_img_wrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.profile_image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-bottom: -13px;
+}
+.user_name_text {
+  margin-bottom: -34px;
+}
+.family_grp_txt {
+  margin-top: 60px;
+  padding-left: 10px;
+  color: cornflowerblue;
+  font-size: smaller;
+}
+.group_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.group_list {
+  padding: 0px 0px 0px 0px;
+}
+.list_item {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: "Poppins", serif;
+  font-weight: normal;
+  font-size: 14px;
+}

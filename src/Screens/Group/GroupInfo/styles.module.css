@@ -1,0 +1,112 @@
+.main {
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Family_Portrait.jpg");
+  background-position: center;
+}
+.bkgrndImg {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.headwrapper {
+  padding-top: 20px;
+  padding-block: 15px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.inputwrapper_main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputwrapper {
+  display: flex;
+  align-items: center;
+}
+.input {
+  height: 40px;
+  border: 0;
+  border-radius: 40px;
+  width: 300px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 15px;
+  font-family: "Poppins";
+}
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.create_butn {
+  background: linear-gradient(90deg, #00a7e2, #cd3fcb);
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  padding: 0px, 0px, 0px, 0px;
+  padding-inline: 20px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.txt1 {
+  font-family: "Poppins";
+  margin-left: 10px;
+  color: cornflowerblue;
+  margin-top: 40px;
+}
+.add_member {
+  background: linear-gradient(90deg, #00a7e2, #cd3fcb);
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  padding: 0px, 0px, 0px, 0px;
+  height: 40px;
+  padding-inline: 20px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grpimg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  margin-left: 15px;
+  object-fit: cover;
+  z-index: 2;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grpNameCard {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.grpNameCardinner {
+  display: flex;
+  align-items: center;
+}
+.grpNameInnerView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.grpNametxt {
+  font-family: "Poppins";
+  color: white;
+  margin: 0;
+}
+.grpDecrptntxt {
+  font-family: "Poppins";
+  color: white;
+  margin: 0;
+}
+.plusIcon {
+  margin-right: 10px;
+  color: white;
+}

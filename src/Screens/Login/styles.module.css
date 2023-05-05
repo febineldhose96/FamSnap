@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  height: 90vh;
+}
+.innerMain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.logo_img {
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
+}
+.inputwrapper {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 50px;
+}
+.input {
+  height: 40px;
+  margin-top: 15px;
+  font-family: "Poppins";
+  border-radius: 10px;
+  padding-left: 5px;
+  border-color: lightseagreen;
+  border-width: 0.5px;
+}
+.login {
+  background: linear-gradient(90deg, #00a7e2, #cd3fcb);
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+.forgotpswr {
+  font-family: "Poppins";
+  cursor: pointer;
+  color: #00a7e2;
+  font-size: small;
+  text-align: end;
+}
+.signup {
+  font-family: "Poppins";
+  font-weight: 700;
+  border-width: 0.6px;
+  margin-top: 20px;
+  opacity: 0.5;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+.privacyPolcy {
+  color: black;
+  font-size: 12px;
+  margin-top: 30px;
+  opacity: 0.4;
+  text-align: center;
+}

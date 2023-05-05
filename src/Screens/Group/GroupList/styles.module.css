@@ -1,0 +1,38 @@
+.main {
+  overflow: scroll;
+  height: 50vh;
+}
+.listmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.profile_img_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile_img {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.image_ {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.profile_name {
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-left: 9px;
+  font-size: small;
+  max-width: 280px;
+  overflow-y: hidden;
+}

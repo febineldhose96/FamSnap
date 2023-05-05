@@ -1,0 +1,7 @@
+.main_wrapper1 {
+  display: flex;
+  justify-content: space-between;
+}
+.middleWrapper {
+  width: 60%;
+}

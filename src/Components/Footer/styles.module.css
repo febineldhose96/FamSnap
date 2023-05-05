@@ -1,0 +1,32 @@
+.main {
+  background: linear-gradient(90deg, #00a7e2, #cd3fcb);
+  flex-direction: row;
+  display: flex;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+.wrapper1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.primary_txt {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.rightstxt {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.icons {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}

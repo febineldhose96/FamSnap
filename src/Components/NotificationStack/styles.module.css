@@ -1,0 +1,50 @@
+@import url("../../Config/fonts.css");
+.main {
+  background: white;
+  flex-direction: column;
+  padding-left: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  overflow: hidden;
+}
+.main_wrapper {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  height: 90vh;
+}
+.notific_label {
+  color: cornflowerblue;
+  font-family: "Poppins";
+  font-size: smaller;
+}
+.list {
+  padding: 0;
+}
+.list_item {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-inline: 10px;
+  display: flex;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.list_item_innervw {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 13px;
+  justify-content: center;
+  flex-direction: column;
+}
+.not_profileIMG {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.list_time {
+  font-family: "Poppins";
+  font-size: 9px;
+  margin: 0;
+  opacity: 0.5;
+}

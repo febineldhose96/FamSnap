@@ -1,0 +1,62 @@
+.logo {
+  height: 60px;
+  margin-left: 10px;
+}
+.header_main {
+  background: linear-gradient(90deg, #00a7e2, #cd3fcb);
+  flex-direction: row;
+  display: flex;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 10vh;
+}
+.NavLink {
+  border-radius: 13px;
+  background: transparent;
+  padding: 10px 22px;
+  color: white;
+  outline: none;
+  border: none;
+  text-decoration-line: none;
+  margin-left: 24px;
+  display: inline-flex;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.premim_img {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+.wrapper_1 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.user_profile {
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user_profile_txt {
+  margin-left: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.logout_btn {
+  border-radius: 15px;
+  background: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  padding-inline: 20px;
+  margin-left: 40px;
+  color: #00a7e2;
+}

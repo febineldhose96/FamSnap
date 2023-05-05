@@ -1,0 +1,57 @@
+.main {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  padding-block: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.groupImg {
+  height: 70px;
+  width: 70px;
+}
+.nameTxt {
+  color: cornflowerblue;
+  margin: 0px;
+  margin-top: 4px;
+  max-width: 100px;
+  text-overflow: clip;
+  font-size: medium;
+}
+.nameWrapper {
+  padding-inline: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  padding: 0;
+}
+.list_item {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.list_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.more_butn {
+  position: static;
+  background: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  border: 0px;
+  height: 30px;
+  width: 30px;
+  margin-inline: 10px;
+}
+.moreImg {
+  height: 10px;
+  width: 10px;
+}
